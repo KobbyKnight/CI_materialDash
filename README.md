@@ -1,2 +1,2 @@
 # CI_materialDash
-This project is to integrate Code Igniter with Material dashboard with all interfaces and ion_auth to act as a simple boiler template
+This is a project to integrate CodeIgniter with Material Dashboard with all interfaces.Integration of ion_auth for authentication, and all cool stuff to be added soon to act as a simple super boiler template
