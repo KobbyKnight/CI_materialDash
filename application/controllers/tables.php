@@ -1,9 +1,9 @@
 <?php
 
 /**
- * Users class
+ * Tables class
  */
-class User extends CI_Controller
+class Tables extends CI_Controller
 {
 	
 	function __construct()
@@ -15,7 +15,7 @@ class User extends CI_Controller
 
 	public function index()
 	{
-		$data['view'] = 'layouts/user';
+		$data['view'] = 'layouts/tables';
 		$this->load->view('layouts/main',$data);
 	}
 }

@@ -293,9 +293,18 @@
 		$(document).ready(function () {
 			// Javascript method's body can be found in assets/js/demos.js
 			md.initDashboardPageCharts();
-
 		});
-
+	</script>
+	<!-- jQuery Lazy Load Maps -->
+	<script src="<?= base_url('assets/jquery/jquery.lazymap.js');?>">
+	</script>
+	<script>
+	$(document).ready(function(){
+			$('.map').lazymap({
+				apiKey: 'AIzaSyD9iIFbCkDXXJi00oKhkVKZMeDpOMfwvl0'
+			});
+		
+	});
 	</script>
 </body>
 
