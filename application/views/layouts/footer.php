@@ -301,7 +301,7 @@
 	<script>
 	$(document).ready(function(){
 			$('.map').lazymap({
-				apiKey: 'AIzaSyD9iIFbCkDXXJi00oKhkVKZMeDpOMfwvl0'
+				apiKey: 'YOUR API KEY HERE'
 			});
 		
 	});
